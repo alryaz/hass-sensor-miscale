@@ -1,0 +1,3 @@
+[submodule "xiaomi_mi_scale_external"]
+	path = xiaomi_mi_scale_external
+	url = https://github.com/lolouk44/xiaomi_mi_scale.git

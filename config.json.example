@@ -1,0 +1,13 @@
+{
+    "MISCALE_MAC": "01:23:45:67:89:AB", // Your scale's MAC address
+    "USER_IDENTIFIER": 12345678, // Random identifier (unused for now)
+    "MQTT_USERNAME": "mqtt_device", // MQTT Username
+    "MQTT_PASSWORD": "mqtt_password", // MQTT Password
+    "MQTT_HOST": "mqtt_host", // MQTT Hostname
+    "MQTT_PORT": 1883, // MQTT Port
+    "MQTT_TIMEOUT": 60, // MQTT Connection timeout
+    "HOMEASSISTANT_DISCOVERY": true, // Discover scale by HomeAssistant
+    "HOMEASSISTANT_DISCOVERY_PREFIX": "homeassistant", // HomeAssistant discovery prefix
+    "HOMEASSISTANT_LAZY_DISCOVERY": true, // Force lazy-discovering of your scales (for retrieving correct setup unit from them)
+    "FORCE_UNIT": false // Force unit everywhere
+}
